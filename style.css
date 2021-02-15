@@ -1,0 +1,38 @@
+.main{
+    position: relative;
+    height: 750px;
+}
+.main > .item{
+    display: block;
+    position:absolute;
+    top: 40%;
+    left: 35%;
+}
+.main > .item > p{
+    font-size: 70px;
+}
+.timer_button{
+    width: 100px;
+    height: 50px;
+}
+
+.countup {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.countup .timeel {
+  display: inline-block;
+  padding: 10px;
+  background: #151515;
+  margin: 0;
+  color: white;
+  min-width: 2.6rem;
+  margin-left: 13px;
+  border-radius: 10px 0 0 10px;
+}
+.countup span[class*="timeRef"] {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+  background: #e8c152;
+  color: black;
+}
